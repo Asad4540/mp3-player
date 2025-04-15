@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dataflair.mp3.dataflair.mp3musicplayer;
+package com;
+
 
 /**
  *
- * @author NARENDER KESWANI
+ * @author 
  */
 import javazoom.jl.player.Player;
 
@@ -73,10 +74,10 @@ public class MusicPlayer implements ActionListener {
         controlPanel = new JPanel(); //Control Selection Panel
 
         //Creating icons for buttons
-        iconPlay = new ImageIcon("C:\\Users\\asad.chaudhary\\Downloads\\music-player-java-code\\music-player-java-code\\DataFlair-Mp3MusicPlayer\\music-player-icons\\play-button.png");
-        iconPause = new ImageIcon("C:\\\\Users\\\\asad.chaudhary\\\\Downloads\\\\music-player-java-code\\\\music-player-java-code\\\\DataFlair-Mp3MusicPlayer\\\\music-player-icons\\pause-button.png");
-        iconResume = new ImageIcon("C:\\\\Users\\\\asad.chaudhary\\\\Downloads\\\\music-player-java-code\\\\music-player-java-code\\\\DataFlair-Mp3MusicPlayer\\\\music-player-icons\\resume-button.png");
-        iconStop = new ImageIcon("C:\\\\Users\\\\asad.chaudhary\\\\Downloads\\\\music-player-java-code\\\\music-player-java-code\\\\DataFlair-Mp3MusicPlayer\\\\music-player-icons\\stop-button.png");
+        iconPlay = new ImageIcon("C:\\Users\\asad.chaudhary\\Downloads\\Music-Player\\music-player-icons\\play-button.png");
+        iconPause = new ImageIcon("C:\\Users\\asad.chaudhary\\Downloads\\Music-Player\\music-player-icons\\pause-button.png");
+        iconResume = new ImageIcon("C:\\Users\\asad.chaudhary\\Downloads\\Music-Player\\music-player-icons\\resume-button.png");
+        iconStop = new ImageIcon("C:\\Users\\asad.chaudhary\\Downloads\\Music-Player\\music-player-icons\\stop-button.png");
 
         //Creating image buttons
         play = new JButton(iconPlay);
